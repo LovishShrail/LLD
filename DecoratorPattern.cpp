@@ -80,8 +80,6 @@ int main() {
     // Finally, add a StarPowerUp decoration.
     mario = new StarPowerUp(mario);
     cout << "After StarPowerUp: " << mario->getAbilities() << endl;
-
     delete mario;
-
     return 0;
 }
